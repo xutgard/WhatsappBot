@@ -18,6 +18,9 @@ with open("numbers.txt", "r") as file:
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 #driver.maximize_window()  # Tarayıcı penceresini tam boyuta getir
 
+
+
+
 link = "https://web.whatsapp.com/"
 driver.get(link)
 time.sleep(15)
